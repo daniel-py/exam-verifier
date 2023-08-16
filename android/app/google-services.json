@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1068804994808",
+    "project_id": "exam-verifier-app",
+    "storage_bucket": "exam-verifier-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068804994808:android:6f3013f4a86642da682d0d",
+        "android_client_info": {
+          "package_name": "com.example.exam_verifier_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068804994808-9hcmdkt0qv7hlvlg0t9euq8qhqpeqkje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4J8DwTZDyfwoaYYNI3px3FcywFdZNaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068804994808-9hcmdkt0qv7hlvlg0t9euq8qhqpeqkje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1068804994808-it2c2jo26cgup5qf1po8u3qq2r2llpqj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.examVerifierApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
