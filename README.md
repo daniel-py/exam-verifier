@@ -4,8 +4,9 @@ A flutter app to verify exam documents (passes) using QR codes
 
 ## Getting Started
 
-This is my final year project for my B.Sc degree in Computer Science at Federal University of Agriculture, Abeokuta
-It utilizes the QR Code present in the current exam pass 
+This is my final year project for my B.Sc degree in Computer Science at Federal University of Agriculture, Abeokuta.
+
+It simply scans a QR Code and returns the authentic exam pass associated with that QR Code. 
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
