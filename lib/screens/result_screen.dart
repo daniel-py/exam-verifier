@@ -72,8 +72,12 @@ class ResultScreen extends StatelessWidget {
                     children: [
                       snapshot.data != null
                           ? Container(
-                              child: Image.network(
-                                snapshot.data!,
+                              child: FadeInImage(
+                                placeholder: const AssetImage(
+                                    'assets/images/Loading_icon.gif'),
+                                image: NetworkImage(
+                                  snapshot.data!,
+                                ),
                                 fit: BoxFit.contain,
                                 height: deviceSize.height * 0.6,
                               ),
@@ -98,8 +102,8 @@ class ResultScreen extends StatelessWidget {
                         height: 10,
                       ),
                       ElevatedButton(
-                        onPressed: () =>
-                            Navigator.of(context).pushReplacementNamed('/'),
+                        onPressed: () => Navigator.of(context)
+                            .popUntil(ModalRoute.withName('/')),
                         child: const Text(
                           'New Scan',
                           style: TextStyle(fontSize: 20),
