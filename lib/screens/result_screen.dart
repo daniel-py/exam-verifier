@@ -15,9 +15,13 @@ class ResultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<String> getImage() async {
-      final ref = storage
-          .ref()
-          .child(ModalRoute.of(context)?.settings.arguments as String);
+      var imgName = (ModalRoute.of(context)?.settings.arguments as String);
+      imgName.replaceAll('>', '');
+      imgName.replaceAll(':', '');
+      imgName.replaceAll('/', '');
+      imgName.replaceAll('\\', '');
+      imgName += '.jpg';
+      final ref = storage.ref().child(imgName);
       //Screenshot_20230725-173154_Drive.jpg
 
       final url = await ref.getDownloadURL();
