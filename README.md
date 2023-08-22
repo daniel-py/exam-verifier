@@ -1,16 +1,11 @@
 # exam_verifier_app
 
-A new Flutter project.
+A flutter app to verify exam documents (passes) using QR codes
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is my final year project for my B.Sc degree in Computer Science at Federal University of Agriculture, Abeokuta.
 
-A few resources to get you started if this is your first Flutter project:
+It simply scans a QR Code and returns the authentic exam pass associated with that QR Code. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I had finished the entire thing on my local machine before I remembered to upload on Github. 
