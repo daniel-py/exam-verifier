@@ -16,17 +16,17 @@ class ResultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Future<String> getImage() async {
       var imgName = (ModalRoute.of(context)?.settings.arguments as String);
-      imgName.replaceAll('>', '');
-      imgName.replaceAll(':', '');
-      imgName.replaceAll('/', '');
-      imgName.replaceAll('\\', '');
+      imgName = imgName.replaceAll('>', '');
+      imgName = imgName.replaceAll(':', '');
+      imgName = imgName.replaceAll('/', '');
+      imgName = imgName.replaceAll('\\', '');
       imgName += '.jpg';
+      print(imgName);
       final ref = storage.ref().child(imgName);
       //Screenshot_20230725-173154_Drive.jpg
 
       final url = await ref.getDownloadURL();
 
-      print(url);
       return url;
 
       // setState(() {
