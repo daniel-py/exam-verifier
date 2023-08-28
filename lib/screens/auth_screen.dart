@@ -85,13 +85,16 @@ class AuthScreen extends HookWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      "Hello, Welcome.",
-                      style: Theme.of(context)
-                          .textTheme
-                          .headlineLarge!
-                          .copyWith(
-                              color: Colors.black, fontWeight: FontWeight.bold),
+                    FittedBox(
+                      child: Text(
+                        "Hello, Welcome.",
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineLarge!
+                            .copyWith(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
+                      ),
                     ),
                     const SizedBox(
                       height: 20,
