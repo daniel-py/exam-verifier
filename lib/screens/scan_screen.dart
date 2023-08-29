@@ -56,7 +56,7 @@ class _ScanScreenState extends State<ScanScreen> {
                     const EdgeInsets.symmetric(vertical: 30.0, horizontal: 20),
                 child: Column(children: [
                   const Text(
-                    "Point the camera at the QR Code on an exam pass, then tap the button below when an ID has been recognized.",
+                    "Point the camera at the QR Code on an exam pass (hold it still for about 3s), then tap the button below when an ID has been recognized.",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
