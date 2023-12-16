@@ -49,6 +49,7 @@ dependencies:
   firebase_auth: ^4.7.2
   firebase_storage: ^11.2.5
   firebase_app_check: ^0.1.5+1
+  photo_view: ^0.14.0
 
 dev_dependencies:
   flutter_test:
